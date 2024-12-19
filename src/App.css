@@ -1,0 +1,44 @@
+/* General Reset */
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  /* Responsive Container */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+      width: 95%;
+    }
+  }   
+  /* Page Content */
+  .container {
+    max-width: 800px  ;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+
+  }
+  
+  /* Page Titles */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+  }
+  
